@@ -1,0 +1,4 @@
+﻿  ProjectileCollisionComponent.cpp
+d:\programming\isometricdx\isometricdx\projectilecomponents\projectilecollisioncomponent.cpp(42): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+  IsometricDx.vcxproj -> D:\Programming\IsometricDx\Debug\IsometricDx.exe
+  IsometricDx.vcxproj -> D:\Programming\IsometricDx\Debug\IsometricDx.pdb (Partial PDB)
