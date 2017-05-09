@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\PlayerComponents">
+      <UniqueIdentifier>{4158ef36-1d66-4420-83f0-4e83a545e3be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\PlayerComponents">
+      <UniqueIdentifier>{6ed92522-d658-4de9-902b-0e24c4244dac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Components">
+      <UniqueIdentifier>{e31ae54f-59ef-46cb-b343-cb88f32959c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\EngineStates">
+      <UniqueIdentifier>{51a42688-1aea-4f03-a9be-321d19753dab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\CameraComponents">
+      <UniqueIdentifier>{dd70622e-af27-4970-a22c-52bad75d26c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\GameStates">
+      <UniqueIdentifier>{37f2dba4-53ef-4ea4-a9ad-d5b52726761d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\IngameStates">
+      <UniqueIdentifier>{c7c05597-0b0b-41ef-b06f-b497a2998b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\EngineStates">
+      <UniqueIdentifier>{ea3f2628-8c85-4609-9601-fefc4f899fb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\CameraComponents">
+      <UniqueIdentifier>{f6bc86cd-6f36-4a29-b135-5554ad66b221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\GameStates">
+      <UniqueIdentifier>{12482702-6559-4415-b3c6-c8630036d209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\IngameStates">
+      <UniqueIdentifier>{fd220ba6-c6cb-4c9a-bbc3-a3da7e494abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Levels">
+      <UniqueIdentifier>{7a89bda5-4ea5-4315-978d-f3ff6582af44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Levels">
+      <UniqueIdentifier>{39eee278-784c-42a4-91bd-18a64d1bd7e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\ProjectileComponents">
+      <UniqueIdentifier>{bb7b079a-5fdb-40fa-b014-c1b91666c220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\ProjectileComponent">
+      <UniqueIdentifier>{5e33e1af-c031-4790-bc1f-cb9b2cf14939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Components">
+      <UniqueIdentifier>{ca34d6a3-ef37-4e08-a160-0f2cae2e6668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\SkeletonComponents">
+      <UniqueIdentifier>{214fd832-6d89-4583-a1ec-e261e9e169c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\SkeletonComponents">
+      <UniqueIdentifier>{934da523-f512-4f9b-8e67-a3a1ae06764a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\FenceComponents">
+      <UniqueIdentifier>{f9b640ad-972e-4788-9fe9-429a0179bdf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\FenceComponents">
+      <UniqueIdentifier>{0301a30d-7572-45fb-a5af-237075695529}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileComponents\ProjectileGraphicsComponent.cpp">
+      <Filter>Quelldateien\ProjectileComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileComponents\ProjectileActionComponent.cpp">
+      <Filter>Quelldateien\ProjectileComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerComponents\PlayerActionComponent.cpp">
+      <Filter>Quelldateien\PlayerComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerComponents\PlayerGraphicsComponent.cpp">
+      <Filter>Quelldateien\PlayerComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerComponents\PlayerInputComponent.cpp">
+      <Filter>Quelldateien\PlayerComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels\Tile.cpp">
+      <Filter>Quelldateien\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels\Map.cpp">
+      <Filter>Quelldateien\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels\Level.cpp">
+      <Filter>Quelldateien\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="IngameStates\IngameState.cpp">
+      <Filter>Quelldateien\IngameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="IngameStates\IngameRunning.cpp">
+      <Filter>Quelldateien\IngameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStates\GameState.cpp">
+      <Filter>Quelldateien\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStates\GameRunning.cpp">
+      <Filter>Quelldateien\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineStates\EngineState.cpp">
+      <Filter>Quelldateien\EngineStates</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineStates\Game.cpp">
+      <Filter>Quelldateien\EngineStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\GraphicsComponent.cpp">
+      <Filter>Quelldateien\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraComponents\CameraKeyInputComponent.cpp">
+      <Filter>Quelldateien\CameraComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraComponents\CameraFollowActionComponent.cpp">
+      <Filter>Quelldateien\CameraComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\CollisionComponent.cpp">
+      <Filter>Quelldateien\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletonComponents\SkeletonStatsComponent.cpp">
+      <Filter>Quelldateien\SkeletonComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletonComponents\SkeletonActionComponent.cpp">
+      <Filter>Quelldateien\SkeletonComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletonComponents\SkeletonCollisionComponent.cpp">
+      <Filter>Quelldateien\SkeletonComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletonComponents\SkeletonGraphicsComponent.cpp">
+      <Filter>Quelldateien\SkeletonComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\StatsComponent.cpp">
+      <Filter>Quelldateien\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerComponents\PlayerStatsComponent.cpp">
+      <Filter>Quelldateien\PlayerComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerComponents\PlayerCollisionComponent.cpp">
+      <Filter>Quelldateien\PlayerComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStates\GameMainMenu.cpp">
+      <Filter>Quelldateien\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStates\GameIntro.cpp">
+      <Filter>Quelldateien\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="IngameStates\IngameMenu.cpp">
+      <Filter>Quelldateien\IngameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="FenceComponents\FenceGraphicsComponent.cpp">
+      <Filter>Quelldateien\FenceComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="FenceComponents\FenceCollisionComponent.cpp">
+      <Filter>Quelldateien\FenceComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileComponents\ProjectileCollisionComponent.cpp">
+      <Filter>Quelldateien\ProjectileComponent</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileComponents\ProjectileGraphicsComponent.h">
+      <Filter>Headerdateien\ProjectileComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileComponents\ProjectileActionComponent.h">
+      <Filter>Headerdateien\ProjectileComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerComponents\PlayerActionComponent.h">
+      <Filter>Headerdateien\PlayerComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerComponents\PlayerGraphicsComponent.h">
+      <Filter>Headerdateien\PlayerComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerComponents\PlayerInputComponent.h">
+      <Filter>Headerdateien\PlayerComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels\Tile.h">
+      <Filter>Headerdateien\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels\Map.h">
+      <Filter>Headerdateien\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels\Level.h">
+      <Filter>Headerdateien\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="IngameStates\IngameState.h">
+      <Filter>Headerdateien\IngameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="IngameStates\IngameRunning.h">
+      <Filter>Headerdateien\IngameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStates\GameState.h">
+      <Filter>Headerdateien\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStates\GameRunning.h">
+      <Filter>Headerdateien\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineStates\EngineState.h">
+      <Filter>Headerdateien\EngineStates</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineStates\Game.h">
+      <Filter>Headerdateien\EngineStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\InputComponent.h">
+      <Filter>Headerdateien\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\GraphicsComponent.h">
+      <Filter>Headerdateien\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\CollisionComponent.h">
+      <Filter>Headerdateien\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ActionComponent.h">
+      <Filter>Headerdateien\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComponents\CameraFollowActionComponent.h">
+      <Filter>Headerdateien\CameraComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComponents\CameraKeyInputComponent.h">
+      <Filter>Headerdateien\CameraComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletonComponents\SkeletonStatsComponent.h">
+      <Filter>Headerdateien\SkeletonComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletonComponents\SkeletonActionComponent.h">
+      <Filter>Headerdateien\SkeletonComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletonComponents\SkeletonCollisionComponent.h">
+      <Filter>Headerdateien\SkeletonComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletonComponents\SkeletonGraphicsComponent.h">
+      <Filter>Headerdateien\SkeletonComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\StatsComponent.h">
+      <Filter>Headerdateien\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStates\GameIntro.h">
+      <Filter>Headerdateien\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStates\GameMainMenu.h">
+      <Filter>Headerdateien\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="IngameStates\IngameMenu.h">
+      <Filter>Headerdateien\IngameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="FenceComponents\FenceCollisionComponent.h">
+      <Filter>Headerdateien\FenceComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="FenceComponents\FenceGraphicsComponent.h">
+      <Filter>Headerdateien\FenceComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerComponents\PlayerCollisionComponent.h">
+      <Filter>Headerdateien\PlayerComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerComponents\PlayerStatsComponent.h">
+      <Filter>Headerdateien\PlayerComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileComponents\ProjectileCollisionComponent.h">
+      <Filter>Headerdateien\ProjectileComponents</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
